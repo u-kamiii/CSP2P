@@ -23,7 +23,8 @@
 	  <a href="#skins">Skins</a>
 	  <a href="#contact">Contact</a>
 	  <a href="#about">About</a>
-	  <a href="#promo">Profile</a>
+	  <a href="#Profile">Profile</a>
+	  <b href="Balance: ">Balance </b>
 	<input type="text" placeholder="Search..">
 	</div>	
 	
@@ -58,9 +59,9 @@
 		</div>
 
 	
-        <p>We are still in development, please check back soon</p>
+		<h3> Why should you use our site over other trading sites? </h3>	
+        <p>Unlike other trading sites, we believe that trading should be a right, not a privilege. </p>
         <div>
-		<h5> Why should you use our site over others? (Skinport, DMarket, SkinBaron) </h3>	
             <ul>
                 <li>The lowest prices ever</li>
             </ul>
@@ -74,6 +75,26 @@
             </ol>
         </div>
     </body>
+<!-- CHAT BOX -->
+	<body>
+	<link rel= "stylesheet" href = "chat.css" type = "text/css">
+
+	<button class="open-button" onclick="openForm()">Live Chat Support</button>
+
+	<div class="chat-popup" id="myForm">
+	  <form action="/action_page.php" class="form-container">
+		<h1>Live Chat</h1>
+
+		<label for="msg"><b>Send a Message</b></label>
+		<textarea placeholder="Type message.." name="msg" required></textarea>
+
+		<button type="submit" class="btn">Send</button>
+		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	  </form>
+	</div>
+	</body>
+<!-- JAVASCRIPT SCRIPTS -->
+<script src = "chat.js" > </script>
 <script src = "slide.js"> </script>
 
 </html>
