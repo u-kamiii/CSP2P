@@ -1,3 +1,2 @@
-Test
-
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+This is the CSP2P project
+A simple, low cost, efficient item trading site for the popular shooter, Counter-Strike Global Offensive
